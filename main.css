@@ -1,0 +1,240 @@
+.background_color {
+background-color: black;
+}
+
+.relative {
+position: relative;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+
+.absolute {
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+
+.z-index {
+z-index: 0;
+}
+
+.border {
+border 2px solid red
+/* dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden */
+border-radius: 7%; /* px or % */
+}
+
+.borders {
+border-style: solid solid solid solid; /* top, right, bottom, left */
+border-width: 15px 15px 15px 15px; /* top, right, bottom, left. The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick */
+border-color: black red black red;
+border-radius: 7%; /* px or % */
+}
+
+.font {
+font-family: FiolexGirls-Regular;
+font-size: xx-large; /* large, ... or px, or % */
+text-align: center;
+}
+
+.padding {
+padding: 0px 0px 0px 0px;
+}
+
+.margin {
+margin: 0px 0px 0px 0px;
+}
+
+.body {
+background-color: slateGray;
+color: white;
+text-align: center;
+}
+
+.h1 {
+color: blue;
+font-family: verdana;
+font-size: 300%;
+}
+
+.style {
+font-family: FiolexGirls-Regular;
+font-size: xx-large;
+border-bottom: 7px solid purple;
+border-radius: 7%;
+text-align: center;
+position: relative;
+right: 0px;
+}
+
+.p {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
+
+.square {
+position: relative;
+bottom: 7px;
+font-size: 12px;
+}
+
+.div {
+width: 300px;
+padding: 10px;
+text-align: center;
+background-color: lavender;
+}
+
+.a {
+display: inline-block; /* display property determinates if elements start on a new line, 'inline' (same line), 'block' (start at new line), 'inline-block' */
+width: 100px;
+background-color: plum;
+margin: 10px;
+padding: 10px;
+}
+
+/*'inline' don't use height and width!, this is for 'block'!
+'display: inline-block' allows elements to begin on a new line and have adjustable width and height */
+
+.a_inline-block {
+display: inline-block;
+width: 100px;
+}
+
+.a_top {
+display: block;
+margin-top: 20px;
+color: purple;
+}
+
+.strong_pos {
+position: relative;
+top: 20px;
+left: 20px;
+}
+
+.span {
+display: block;
+background-color: purple;
+color: snow;
+}
+
+.span2 {
+display: inline-block;
+width: 75px;
+background-color: moccasin;
+padding: 5px;
+}
+
+.img {
+margin: 10px 0 20px 0;
+border: solid 2px aliceBlue;
+filter: saturate(130%) brightness(110%);
+}
+
+.img_pos {
+position: relative;
+top: 10px;
+left: 10px;
+padding: 10px;
+}
+
+.block {
+display: block;
+}
+
+.rel {
+position: relative;
+padding: 10px;
+}
+
+.first {
+background-color: lavender;
+top: 20px;
+}
+
+.second {
+background-color: wheat;
+top: 40px;
+}
+
+.third {
+background-color: pink;
+top: 60px;
+}
+
+.tag {
+display: inline;
+background-color: plum;
+padding: 5px;
+border-radius: 10px;
+}
+
+.choose_file{
+position:relative;
+display:inline-block;
+border-radius:8px;
+border:#ebebeb solid 1px;
+width:250px;
+padding: 4px 6px 4px 8px;
+font: normal 14px Myriad Pro, Verdana, Geneva, sans-serif;
+color: #7f7f7f;
+margin-top: 2px;
+background:white
+}
+
+.choose_file input[type="file"]{
+-webkit-appearance:none;
+position:absolute;
+top:0; left:0;
+opacity:0;
+}
+
+.btn-upload {
+position: relative;
+overflow: hidden;
+display: inline-block;
+}
+
+.btn-upload input[type=file] {
+position: absolute;
+opacity: 0;
+z-index: 0;
+max-width: 100%;
+height: 100%;
+display: block;
+}
+
+.btn-upload .btn{
+padding: 8px 20px;
+background: #337ab7;
+border: 1px solid #2e6da4;
+color: #fff;
+border: 0;
+}
+
+.btn-upload:hover .btn{
+padding: 8px 20px;
+background: #2e6da4;
+color: #fff;
+border: 0;
+}
+
+.image{
+position:relative;
+display:inline-block;
+width:3%;
+padding: 0%;
+}
+
+.image input[type="file"]{
+-webkit-appearance:none;
+position:absolute;
+top:0; left:0;
+opacity:0;
+ }
